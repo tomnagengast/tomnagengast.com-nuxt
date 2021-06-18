@@ -4,7 +4,7 @@
         <div class="font-serif font-light leading-10 text-2xl text-right text-gray-700">
             <div>I like to make things and solve prolems</div>
             <div class="py-4">
-                <div>I'm a <span class="text-blue-600 border-b-8 border-blue-100">{{ identity }}</span> living on the Central Coast</div>
+                <div>I'm a <span class="text-blue-600 border-b-8 border-blue-100">{{ identity }}</span> living on the California Central Coast</div>
                 <div>This is mostly nonsense</div>
             </div>
             <div>Cheers!</div>
