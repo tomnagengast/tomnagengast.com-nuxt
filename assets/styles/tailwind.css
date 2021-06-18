@@ -9,8 +9,9 @@
         font-family: 'Proxima Nova';
         src: local('Proxima Nova'), url('../fonts/Proxima-Nova-Regular.ttf') format('ttf');
     }
-    /*@font-face {*/
-    /*    font-family: 'Adelle';*/
-    /*    src: local('Adelle'), url('../fonts/Adelle-Regular.ttf') format('ttf');*/
-    /*}*/
+}
+
+
+[v-cloak] {
+display: none;
 }
