@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="px-4">
         <div class="text-6xl font-bold my-24 mb-16 text-gray-800">Hi! I'm Tom Nagengast</div>
         <div class="font-serif font-light leading-10 text-2xl text-right text-gray-700">
             <div>I like to make things and solve prolems</div>
