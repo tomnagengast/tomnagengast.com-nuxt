@@ -4,7 +4,7 @@
             v-for="card in cards"
             :key="card.id"
         >
-            <NuxtLink :to="card.slug">
+            <NuxtLink :to="/posts/card.slug">
                 <PostCard :card="card"/>
             </NuxtLink>
         </div>
