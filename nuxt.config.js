@@ -49,6 +49,11 @@ export default {
         config: {}
     },
     content: {
-        // Options
-    }
+        liveEdit: false,
+        markdown: {
+            prism: {
+                theme: 'prism-themes/themes/prism-material-oceanic.css'
+            }
+        }
+    },
 }
