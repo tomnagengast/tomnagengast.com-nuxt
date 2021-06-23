@@ -10,7 +10,7 @@
                 <div class="uppercase text-gray-600 tracking-widest text-sm">Tom Nagengast</div>
             </a>
         </div>
-        <div class="text-sm text-center text-gray-400 ">{{ formatDate(post.publishedAt) }}</div>
+        <div class="text-sm text-center text-gray-400">{{ formatDate(post.publishedAt) }}</div>
         <div class="font-bold text-center text-gray-800 text-4xl pb-8">{{post.title}}</div>
         <nuxt-content :document="post"/>
          <prev-next :prev="prev" :next="next"/>
