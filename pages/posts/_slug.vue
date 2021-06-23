@@ -3,7 +3,7 @@
         <div class="mt-20 mb-12 mx-auto center text-center">
             <a class="inline-block" href="/">
                 <img class="rounded-full w-20 shadow-lg border p-1 mb-2"
-                     src="https://avatars.githubusercontent.com/u/260337?v=4"
+                     src="https://github.com/tnagengast.png"
                      alt="Profile Picture">
             </a>
             <a href="/">
