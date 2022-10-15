@@ -1,11 +1,11 @@
-safelistConfig = process.env.APP_ENV === 'production' ? [] : [
-    {
-        pattern: /./, // the "." means "everything", remove this for production
-    },
-];
+// safelistConfig = process.env.APP_ENV === 'production' ? [] : [
+//     {
+//         pattern: /./, // the "." means "everything", remove this for production
+//     },
+// ];
 
 module.exports = {
-    safelist: safelistConfig,
+    // safelist: safelistConfig,
     content: [
         "./components/**/*.{js,vue,ts}",
         "./layouts/**/*.vue",
