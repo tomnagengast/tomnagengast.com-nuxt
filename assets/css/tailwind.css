@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@650;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    /* https://twitter.com/kartofelek0007/status/1492066532037468165 */
+    /* outline: 2px solid red; */
+    /* @apply text-gray-800; */
+    @apply text-base;
+}
+
+a {
+    @apply text-blue-700 text-xl;
+}
+
+.title {
+    font-family: 'Libre Franklin', serif;
+}
