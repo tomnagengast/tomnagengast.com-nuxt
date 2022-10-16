@@ -28,28 +28,14 @@
         </div>
     </div>
 </template>
+
 <style scoped>
 a {
     @apply font-bold;
 }
 </style>
+
 <script setup>
 const codingYears = (new Date).getFullYear() - (new Date('2012-09-01')).getFullYear()
 const dataYears = (new Date).getFullYear() - (new Date('2014-10-01')).getFullYear()
-const identity = 'butterfly therapist'
-const occupations = [
-    "data scientist", "musician", "web developer", "creative",
-    "woodworker", "fisherman", "athlete", "nerd", "badass",
-    "winemaker", "hero", "comedian", "brother", "dreamer",
-    "programmer", "data scientist", "tank cleaner", "designer",
-    "audiophile", "movie watcher", "trusted advisor",
-    "drinking buddy", "floor sweeper", "web developer",
-    "world traveler", "man of mystery", "mad scientist",
-    "fashionable dude", "gardener", "farmer", "analyst",
-    "city slicker", "local yocal", "book reader", "writer",
-    "backpacker", "chef", "night owl", "force of nature",
-    "salesman", "consumer", "hermit", "socialite", "renaissance man",
-    "web developer", "son", "neat freak", "romantic", "tough s.o.b.",
-    "n00b", "expert", "thinker", "pontificator", "winemaker"
-]
 </script>
