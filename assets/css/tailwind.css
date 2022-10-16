@@ -6,9 +6,7 @@
 
 * {
     /* https://twitter.com/kartofelek0007/status/1492066532037468165 */
-    /* outline: 2px solid red; */
-    /* @apply text-gray-800; */
-    @apply text-base;
+    /*@apply text-base;*/
 }
 
 a {

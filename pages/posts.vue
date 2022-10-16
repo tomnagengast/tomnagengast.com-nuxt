@@ -7,11 +7,11 @@
     <div>
         <ContentList path="/posts" v-slot="{ list }">
             <div v-for="post in list" :key="post._path" class="text-center pt-14">
-                <div v-if="currentDate > post.publishDate">
+                <div v-if="currentDate > post.publishDate && post.isPublished">
                     <NuxtLink :to="post._path" class="hover:text-blue-600 text-gray-800">
                         <div class="pb-1 text-gray-400">{{ formatDate(post.publishDate) }}</div>
                         <div class="pb-1 text-xl font-bold">{{ post.title }}</div>
-                        <div class="text-gray-600">{{ post.description }}</div>
+                        <div class="text-gray-600 font-normal">{{ post.description }}</div>
                     </NuxtLink>
                 </div>
             </div>
@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-definePageMeta({ layout: "posts" });
+definePageMeta({layout: "posts"});
 
 const currentDate = new Date().toISOString()
 

@@ -9,7 +9,7 @@
             and immersed in the data world for almost {{ dataYears }} years.
         </div>
         <div class="text-xl mb-4">
-            I wasn't always a nerd though - I grew up in the <a href="https://cinqaincellars.com">wine industry</a>,
+            I wasn't always a nerd though - I grew up in the <a href="https://cinquaincellars.com/">wine industry</a>,
             got <a href="https://uclabruins.com/sports/track-and-field/roster/thomas-nagengast/1943">pretty good at sports-ing</a>, and even started my own <a
             href="https://bajkawine.com">wine label</a>
             before I turned my attention to the keys.

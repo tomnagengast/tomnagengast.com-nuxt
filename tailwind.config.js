@@ -1,4 +1,5 @@
 safelistConfig = process.env.APP_ENV === 'production' ? [] : [{pattern: /./}];
+safelistConfig = [];
 
 module.exports = {
     safelist: safelistConfig,

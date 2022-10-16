@@ -6,6 +6,7 @@
         </div>
     </div>
 </template>
+
 <script setup>
 useMeta({
     meta: [

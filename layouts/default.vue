@@ -4,6 +4,7 @@
         <slot/>
     </div>
 </template>
+
 <script setup>
 useMeta({
     meta: [
