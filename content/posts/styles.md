@@ -5,6 +5,8 @@ isPublished: false
 
 # Markdown Style Guide
 
+The following is based on this [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet){:target="_blank"}.
+
 # H1
 ## H2
 ### H3
