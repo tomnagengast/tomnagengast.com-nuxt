@@ -5,7 +5,7 @@
         </NuxtLink>
         <div class="space-x-4 pt-2 nav-items">
             <NuxtLink to="/" class="hover:bg-blue-200 hover:text-blue-700 px-2 py-1 rounded text-base text-gray-500">README</NuxtLink>
-            <NuxtLink to="/posts" class="hover:bg-blue-200 hover:text-blue-700 px-2 py-1 rounded text-base text-gray-500" v-if="true">Posts</NuxtLink>
+            <NuxtLink to="/posts" class="hover:bg-blue-200 hover:text-blue-700 px-2 py-1 rounded text-base text-gray-500" v-if="false">Posts</NuxtLink>
         </div>
     </div>
 </template>
