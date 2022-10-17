@@ -1,8 +1,8 @@
 import postgres from "postgres";
 
-const {PGHOST, PGDATABASE, PGUSER, PGPASSWORD, PROJECT_NAME} = process.env;
-const URL = `postgres://${PGUSER}:${PGPASSWORD}@${PGHOST}/${PGDATABASE}?options=project%3D${PROJECT_NAME}`;
-const sql = postgres(URL, {ssl: 'require'});
+const {DATABASE_URL} = process.env;
+const isLocal = DATABASE_URL.includes("localhost");
+const sql = postgres(DATABASE_URL, {ssl: isLocal ? 'prefer' : 'require'});
 
 async function getPostgresVersion() {
     // return sql`select version()`;
