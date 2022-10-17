@@ -6,7 +6,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "migrate": "node-pg-migrate"
+    "migrate": "node-pg-migrate",
+    "seed": "node database/seeders/DatabaseSeeder.js"
   },
   "devDependencies": {
     "@heroicons/vue": "^2.0.12",
